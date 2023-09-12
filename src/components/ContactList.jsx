@@ -41,7 +41,7 @@ const API_URL = "https://fsa-jsonplaceholder-69b5c48f1259.herokuapp.com/users"
             {
              contacts.map((contact) => {
               return <ContactRow key={contact.id} contact={contact} 
-            //   setSelectedContactId={setSelectedContactId} 
+              setSelectedContactId={setSelectedContactId} 
               />;      
              })}
           </tbody>

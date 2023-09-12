@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  color: black;
 }
 
 .logo {
@@ -39,4 +40,27 @@
 
 .read-the-docs {
   color: #888;
+}
+
+body{
+  background: hsla(99, 75%, 75%, 1);
+
+background: linear-gradient(90deg, hsla(99, 75%, 75%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(99, 75%, 75%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(99, 75%, 75%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B2EF91", endColorstr="#FA9372", GradientType=1 );
+
+}
+
+.selected-info {
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
 }
